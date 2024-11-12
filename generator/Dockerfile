@@ -1,7 +1,7 @@
 # (c) Copyright 2019-2024 OLX
 FROM rust:1.75.0-alpine3.19
 
-ENV VIPS_VERSION=8.15.1
+ENV VIPS_VERSION=8.16.0
 
 RUN apk add --quiet --update --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/v3.19/main \
   build-base \
