@@ -1,5 +1,5 @@
 # (c) Copyright 2019-2025 OLX
-FROM rust:1.92.0-alpine3.23
+FROM rust:1.95.0-alpine3.23
 
 ENV VIPS_VERSION=8.17.3
 
